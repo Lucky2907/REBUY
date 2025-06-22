@@ -1,0 +1,17 @@
+.errorMessage {
+    margin-top: 1rem;
+}
+
+@media (max-width: 768px) {
+    .authContainer {
+        padding: 2rem 1rem;
+    }
+    .authBox {
+        padding: 1.5rem;
+        width: 100%;
+        max-width: none;
+    }
+    .title {
+        font-size: 1.8rem;
+    }
+}

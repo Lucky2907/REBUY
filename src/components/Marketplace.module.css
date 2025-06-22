@@ -1,0 +1,30 @@
+.productGrid {
+    gap: 1.5rem;
+}
+
+@media (max-width: 768px) {
+    .filterSection {
+        padding: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    .filterForm {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 1rem;
+    }
+    .filterGroup {
+        width: 100%;
+        margin-right: 0;
+    }
+    .filterGroup label {
+        margin-bottom: 0.25rem;
+        display: block;
+    }
+    .filterGroup input,
+    .filterGroup select {
+        width: 100%;
+    }
+    .productGrid {
+        grid-template-columns: 1fr;
+    }
+}

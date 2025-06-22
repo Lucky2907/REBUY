@@ -1,0 +1,55 @@
+.socialProof h3 {
+    margin-bottom: 2rem;
+}
+
+
+/* Add a media query for smaller screens */
+
+@media (max-width: 768px) {
+    .hero {
+        padding: 4rem 1.5rem;
+        text-align: center;
+    }
+    .heroHeadline {
+        font-size: 2.5rem;
+        /* Smaller font size for mobile */
+    }
+    .heroSubheadline {
+        font-size: 1rem;
+        max-width: 90%;
+        margin: 1.5rem auto 2rem;
+    }
+    .features {
+        padding: 3rem 1.5rem;
+    }
+    .features h2 {
+        font-size: 2rem;
+    }
+    .featuresGrid {
+        grid-template-columns: 1fr;
+        /* Stack cards in a single column */
+        gap: 1.5rem;
+    }
+    .socialProof {
+        padding: 3rem 1.5rem;
+    }
+    .logoGrid {
+        gap: 2rem 1rem;
+    }
+    .logoGrid img {
+        height: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .heroHeadline {
+        font-size: 2rem;
+    }
+    .heroButtons .ctaButton {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .heroButtons .ctaButton:last-child {
+        margin-bottom: 0;
+    }
+}
